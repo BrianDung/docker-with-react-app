@@ -20,7 +20,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:prod": "npx serve -s build",
+    "docker:build": "docker build -t fe-app .",
+    "docker:run": "docker container run --name=container-fe-app -p=3000:3000 fe-app",
+    "docker:stop": "docker container stop container-fe-app",
+    "docker:remove": "docker container rm container-fe-app",
+    "docker:init-app": "yarn docker:build && yarn docker:run",
+    "docker:cancel-app": "yarn docker:stop && yarn docker:remove"
   },
   "eslintConfig": {
     "extends": [
