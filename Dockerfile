@@ -4,6 +4,8 @@ FROM node:14.19.0 as build-deps
 # Create working directory and copy the app before running yarn install as the artifactory
 # credentials can be inside .npmrc
 WORKDIR /usr/src/app
+
+# Copy all file and folder at directory app to WORKDIR
 COPY . ./
 
 # Run yarn install
