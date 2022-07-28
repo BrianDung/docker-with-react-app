@@ -4,7 +4,7 @@ Please include a summary of the changes and the related issue. Please also inclu
 
 ## Issue ticket number and link
 
-Please provide issues link , project name and ticket id [Issue-VISPX-705](https://jira.sotatek.com/browse/VISPX-705 "The best search engine for privacy").
+Please provide the issue links that you have fixed: [Issue-VISPX-705](https://jira.sotatek.com/browse/VISPX-705 "The best search engine for privacy").
 
 ## Checklist before requesting a review
 
