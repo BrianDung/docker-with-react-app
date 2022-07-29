@@ -15,5 +15,5 @@ You will also see any lint errors in the console.
 ### `yarn docker:cancel-app`
 
 Will be stop process of container and remove it.\
-On browser can not run with port 3000....
+On browser can not run with port 3000.
 
